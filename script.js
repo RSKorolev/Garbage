@@ -1,2 +1,2 @@
-let HowYears = prompt('Ваше имя', 'Гость');
-alert(`Привет ${HowYears}!`);
+let YouName = prompt('Ваше имя', 'Гость');
+alert(`Привет ${YouName}!`);

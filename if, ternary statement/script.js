@@ -12,14 +12,27 @@
 // 0, если значение равно нулю.
 // Предполагается, что пользователь вводит только числа.
 
-let value = prompt('Введите любое число?')
+// let value = prompt('Введите любое число?')
 
-if (value > 0) {
-    alert('1');
-} else if (value < 0) {
-    alert('-1');
-} else if (value == 0) {
-    alert('0');
-} else {
-    alert('Число не введено!')
-}
+// if (value > 0) {
+//     alert('1');
+// } else if (value < 0) {
+//     alert('-1');
+// } else if (value == 0) {
+//     alert('0');
+// } else {
+//     alert('Число не введено!')
+// }
+
+// Перепишите конструкцию if с использованием условного оператора '?':
+// let result;
+
+// if (a + b < 4) {
+//     result = 'Мало';
+// } else {
+//     result = 'Много';
+// }
+
+let a = prompt('Введите число a');
+let b = prompt('Введите число b')
+let result = (a + b < 4) ? alert('Мало') : alert('Много');

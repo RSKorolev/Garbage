@@ -1,7 +1,25 @@
-let question = prompt('Какое официальное название JavaSript?')
+// let question = prompt('Какое официальное название JavaSript?')
 
-if (question === 'ECMAScript') {
-    alert('Верно!');
+// if (question === 'ECMAScript') {
+//     alert('Верно!');
+// } else {
+//     alert('Вы не знаете? "ECMAScript"');
+// }
+
+// Используя конструкцию if..else, напишите код, который получает число через prompt, а затем выводит в alert:
+// 1, если значение больше нуля,
+// -1, если значение меньше нуля,
+// 0, если значение равно нулю.
+// Предполагается, что пользователь вводит только числа.
+
+let value = prompt('Введите любое число?')
+
+if (value > 0) {
+    alert('1');
+} else if (value < 0) {
+    alert('-1');
+} else if (value == 0) {
+    alert('0');
 } else {
-    alert('Вы не знаете? "ECMAScript"');
+    alert('Число не введено!')
 }

@@ -1,18 +1,11 @@
 function correct(string) {
-    let arr = string.split('');
-    console.log(arr);
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === '5') {
-            arr[i] = 'S';
-        } else if (arr[i] == '0') {
-            arr[i] = 'O';
-        } else if (arr[i] === '1') {
-            arr[i] = 'I';
-        } else {
-            arr
+    return string.replace(/[5,0,1]/gi, (a) => {
+        if (a == '5') return a = 'S';
+        if (a == '0') return a = 'O';
+        if (a == '1') return a = 'I';
+    })
+}
+console.log(correct("PAR15"));  // PARIS
 
-        }
-    }
-    return arr.join('')
 
-} console.log(correct("L0ND0N"));
+// correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')

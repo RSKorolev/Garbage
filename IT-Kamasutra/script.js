@@ -7,7 +7,7 @@ const word1Translation = 'Покеда';
 const word2Translation = 'Программист';
 const wordsCount = 3;
 
-const finishSuccessMessage = 'Молодец! Good resul';
+const finishSuccessMessage = 'Молодец! Good result';
 const finishUnsuccessMessage = 'Молодец! Но постарайся лучше!'
 
 const correctAnswersMinPercent = 50;
